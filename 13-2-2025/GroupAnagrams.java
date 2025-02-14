@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class GroupAnagrams {
+public class GroupAnagrams{
     public static List<List<String>> groupAnagrams(String[] strs) {
         Hashtable<String, List<String>> anagramTable = new Hashtable<>();
         
